@@ -9,7 +9,7 @@ while True:
 
     # Convert the frame to the HSV color space
     'frame_hsv '
-
+    cv2.imshow('HSV',frame_hsv)
     # Define the range of COLOR to detect
     lower_c = np.array(['#'])
     upper_c = np.array(['#'])
